@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+@font-face {
+  font-family: "Beaufort Regular";
+  src: url("/fonts/beaufort-regular.ttf");
+}
+
+:root {
+  --border-white: 1px solid rgba(255, 255, 255, 0.2);
+  --border-black: 1px solid rgba(0, 0, 0, 0.1);
+  --yellow: #ffb007;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: #fff5ea;
+  font-family: "Figtree", Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+ul {
+  list-style: none;
+}
